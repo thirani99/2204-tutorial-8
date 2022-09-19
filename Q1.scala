@@ -5,7 +5,7 @@ object Q1 extends App{
 
     val p3 = p1+p2;
     val p4 = p1.move(3,1);
-    val x = p1.distance(p2);
+    val d = p1.distance(p2);
     val p5 = p1.invert();
 
     println("\nADD function");
@@ -13,7 +13,7 @@ object Q1 extends App{
     println("\nMove function");
     println(p4);
     println("\nDistance between two given points");
-    println(x);
+    println(d);
     println("\nInvert x and y coordinates");
     println(p5);
 
