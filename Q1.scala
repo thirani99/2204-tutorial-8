@@ -8,14 +8,10 @@ object Q1 extends App{
     val d = p1.distance(p2);
     val p5 = p1.invert();
 
-    println("\nADD function");
-    println(p3);
-    println("\nMove function");
-    println(p4);
-    println("\nDistance between two given points");
-    println(d);
-    println("\nInvert x and y coordinates");
-    println(p5);
+    println("\nADD function- " +p3);
+    println("\nMove function- " +p4);
+    println("\n\nDistance between two given points- " +d);
+    println("\nInvert x and y coordinates- " +p5);
 
 
 }
